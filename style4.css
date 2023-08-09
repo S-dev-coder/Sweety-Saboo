@@ -7,7 +7,7 @@ body, h1, h2, h3, p, ul, li, blockquote {
 
 /* Apply some basic styling */
 body {
-    font-family:'Times New Roman', Times, serif;
+    /* font-family:'Times New Roman', Times, serif; */
     line-height: 2.0;
 }
 
@@ -39,7 +39,6 @@ main {
 .testimonial {
     text-align: center;
     margin-bottom: 0rem;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     /* font-size: larger; */
 }
 
@@ -64,24 +63,25 @@ main {
 }
 
 .testimonial-quote {
-    font-style: italic;
+    /* font-style: italic; */
+    font-family: 'Edu SA Beginner', cursive;
     color: #444;
-    font-size: 1.2rem;
-    line-height: 1.6;
+    font-size: 1.4rem;
+    line-height: 1.3;
 }
 
 .testimonial-card cite {
     display: block;
     text-align: right;
     color: #7b7979;
-    font-size: 0.9rem;
+    font-size: 1.0rem;
 }
 
 footer {
     background-color: #222121;
     color: #fff;
     text-align: center;
-    padding: 1rem;
+    padding: 2rem;
     font-size: larger;
 }
 
@@ -103,5 +103,3 @@ footer {
         padding: 1rem;
     }
 }
-
-
