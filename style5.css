@@ -133,49 +133,9 @@ body {
     background-color: #3a506b;
     color: #fff;
     text-align: center;
-    padding: 20px;
+    padding: 85px;
 }
 
 .footer p {
     font-size: 20px;
 }
-
-/* Add the following CSS at the end of your existing styles */
-
-/* Add focus animation for input fields */
-/* .input-group.focused input, .input-group.focused textarea {
-    background-color: #f0f4f8;
-}
-
-/* Add an animation to the success message */
-/*
-.success-message {
-    display: none;
-    margin-top: 20px;
-    text-align: center;
-    color: #2ecc71;
-    animation: fadeInOut 3s ease-in-out;
-}
-
-@keyframes fadeInOut {
-    0%, 100% {
-        opacity: 0;
-    }
-    10%, 90% {
-        opacity: 1;
-    }
-}
-
-/* Add responsive styling for smaller screens  */
-/*
-@media (max-width: 768px) {
-    .contact-container {
-        padding: 20px;
-    }
-
-    .btn {
-        font-size: 16px;
-        padding: 12px 20px;
-    }
-}
- */
